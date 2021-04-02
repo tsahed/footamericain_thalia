@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Repository\JoueurRepository;
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -122,5 +123,15 @@ class Joueur
         $this->equipe = $equipe;
 
         return $this;
+    }
+
+    public function dureeJoueur()
+    {
+        $jourActuel = new DateTime('NOW');
+        $dateEntreeJoueur = $this->getDateEntree();
+
+        $nbJourEcoules = date_diff($dateEntreeJoueur, $jourActuel);
+
+        return $nbJourEcoules->format('%a');
     }
 }

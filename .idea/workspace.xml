@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b844af4-b833-497b-9da4-4317e3b5bf22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    <list default="true" id="2b844af4-b833-497b-9da4-4317e3b5bf22" name="Default Changelist" comment="etape 1 à 3 manque correction formulaire">
+      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/entity/dureeJoueurTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EquipeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EquipeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/JoueurController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/JoueurController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Joueur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Joueur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/JoueurType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/JoueurType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -104,8 +117,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/home" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thali\footamericain_thalia\templates\home" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,11 +135,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617348133807</updated>
-      <workItem from="1617348136221" duration="151000" />
+      <workItem from="1617348136221" duration="1558000" />
+      <workItem from="1617385339347" duration="5465000" />
     </task>
+    <task id="LOCAL-00001" summary="etape 1 à 3 manque correction formulaire">
+      <created>1617348557199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617348557199</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="etape 1 à 3 manque correction formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="etape 1 à 3 manque correction formulaire" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1104" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617390572019">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1104" y="329" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617390572019" />
+    <state x="811" y="422" key="Github.ShareDialog" timestamp="1617348482580">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="811" y="422" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617348482580" />
+    <state x="1139" y="355" key="NewPhpClassDialog" timestamp="1617390667591">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1139" y="355" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617390667591" />
+    <state x="1208" y="506" key="NewPhpFileDialog" timestamp="1617390495575">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1208" y="506" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1617390495575" />
+    <state x="879" y="277" key="SettingsEditor" timestamp="1617385323659">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="879" y="277" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1617385323659" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1617348589906">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1617348589906" />
   </component>
 </project>
